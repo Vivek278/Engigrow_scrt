@@ -5,8 +5,8 @@ import numpy as np
 import joblib
 
 # Load the model and scaler
-rf = joblib.load('random_forest_model.pkl')
-scaler = joblib.load('minmax_scaler.pkl')
+rf = joblib.load('Detector.pkl')
+scaler = joblib.load('scaler.pkl')
 
 
 app = FastAPI()
